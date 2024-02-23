@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.content{
+  height:100vh;
+}
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  
+}
+/* Transaction page...*/
+
+.filters{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding:15px 20px;
+box-shadow: 0 0 3px gray;
+}
+.loginuser_logout_btn {
+  margin-left: 40vh;
+  display: inline-flex;
+}
+#navbarSupportedContent {
+  text-align: center;
+  margin-left: 361px;
+  padding-top: 10px;
+}
+
+ /*----------------Details Two page----*/
+ .header_1 {
+  min-height: 7px;
+  font-size: small;
+  border-bottom: 1px solid #f8f9fa17;
+  text-align: center;
+  margin-bottom: 56px;
+  color: #a7a931;
+  font-family: monospace;
+}
+
+/*----------------Details Three page----*/
+.header_2 {
+  min-height: 7px;
+  font-size: small;
+  border-bottom: 1px solid #f8f9fa17;
+  text-align: center;
+  margin-bottom: 56px;
+  color: #14eaf1;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
